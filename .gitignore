@@ -1,6 +1,3 @@
-# Images files, you can use your own if wanted
-*.png
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
