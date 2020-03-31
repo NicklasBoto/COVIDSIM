@@ -111,8 +111,8 @@ window.pack()
 
 #            0-24   25-54   55-64   65+
 age_model = [0.284, 0.3933, 0.1167, 0.206]
-#age_risks = [2    , 4     , 13    , 150  ]
-age_risks = [30, 40, 50, 900]
+#age_risks = [2    , 4     , 13    , 150  ] # actual values
+age_risks = [30, 40, 50, 900] # "simulation friendly" values
 
 status_image = {Status.SUSCEPTIBLE : 's.png', Status.INFECTED : 'i.png', Status.RECOVERED : 'r.png', Status.DEAD : 'd.png'}
 age_image = {age_risks[0] : "baby_", age_risks[1] : "adult_", age_risks[2] : "boomer_", age_risks[3] : "old_"}
